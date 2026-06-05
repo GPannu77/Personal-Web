@@ -64,6 +64,8 @@
     color: white
 }
 .home{
+    text-align: center;
+    justify-content: center;
     width: 100%;
     min-height: 100vh;
     background: rgb(241, 241, 241);
@@ -77,4 +79,130 @@
 }
 .home-content h3{
     font-size: 42px;
+}
+.home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;  
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: bisque;
+    color: white;
+    border: 2px solid hsl(0, 0%, 92%);
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;  
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(241, 241, 241);
+}
+::-webkit-scrollbar-track{
+    background: rgb(0, 0, 0, 0.8);
+    width: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: black;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.about-content h2{
+    text-align: center;
+    color: bisque;
+    font-size: 42px;
+}
+.about-content h3{
+    text-align: center;
+    color: bisque;
+    font-size: 52px;
+}
+.about-content p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.btn-box2{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.btn-3{
+    padding: 15px 28px;
+    background-color: bisque;
+    color: white;
+    border: 2px solid hsl(0, 0%, 92%);
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;  
+}
+.btn-4{
+    padding: 15px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-4:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;  
 }
