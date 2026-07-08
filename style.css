@@ -84,15 +84,29 @@ html {
     max-width: 800px;
 }
 .home-content h3{
-    font-size: 42px;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(180, 130, 90);
+    margin-top: 10px;
+    letter-spacing: 0.3px;
 }
 .home-content h1{
     font-size: 62px;
-    line-height: 1.2;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    color: black;
+}
+.home-content h1 span{
+    color: bisque;
 }
 .home-content p{
-    font-size: 18px;
-    margin: 25px 0 30px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.75;
+    color: rgba(0, 0, 0, 0.85);
+    max-width: 560px;
+    margin: 22px auto 32px;
 }
 .btn-box{
     display: flex;
@@ -164,13 +178,19 @@ html {
 .about-content h3{
     text-align: center;
     color: bisque;
-    font-size: 52px;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 6px 0 1em;
 }
 .about-content p{
     text-align: center;
-    color: white;
-    font-size: 20px;
-    margin: 2em 0 3em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 560px;
+    margin: 0 auto 3em;
 }
 .btn-box2{
     width: 345px;
@@ -326,9 +346,9 @@ html {
 }
 .resume-content p{
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.7;
-    color: rgb(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.8);
     max-width: 480px;
     margin: 18px auto 30px;
 }
@@ -359,7 +379,7 @@ html {
     text-align: center;
     color: black;
     font-size: 42px;
-    margin-bottom: 4em;
+    margin-bottom: 1.5em;
 }
 .education h2 span{
     color: bisque;
@@ -411,6 +431,11 @@ html {
     flex: 1;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
     transition: 0.3s ease;
+}
+.timeline-content p{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 15px;
+    font-weight: 600;
 }
 .timeline-content:hover{
     border: 1px solid bisque;
@@ -557,4 +582,7 @@ html {
     .project-grid{
         grid-template-columns: 1fr;
     }
+}
+.home-content h1 span{
+    color: bisque;
 }
