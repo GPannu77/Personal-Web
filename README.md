@@ -10,7 +10,7 @@ A personal portfolio website showcasing my work, resume, and education as a Soft
 
 | Page | File | Description |
 |------|------|--------------|
-| Portfolio (Home) | `index.html` | Landing page with intro, "Hire Me" CTA, and About Me section |
+| Portfolio (Home) | `portfolio.html` | Landing page with intro, "Hire Me" CTA, and About Me section |
 | Projects | `projects.html` | Showcase of personal/academic projects |
 | Resume | `resume.html` | Skills, experience, and downloadable/viewable resume |
 | Education | `education.html` | Academic background and qualifications |
@@ -33,7 +33,7 @@ A personal portfolio website showcasing my work, resume, and education as a Soft
 ## 📁 Project Structure
 
 ```
-├── index.html
+├── portfolio.html
 ├── projects.html
 ├── resume.html
 ├── education.html
@@ -47,7 +47,7 @@ A personal portfolio website showcasing my work, resume, and education as a Soft
    ```bash
    git clone https://github.com/GPannu77/<your-repo-name>.git
    ```
-2. Open `index.html` in your browser — no build steps or dependencies required.
+2. Open `portfolio.html` in your browser — no build steps or dependencies required.
 
 ## 📬 Contact
 
