@@ -10,34 +10,38 @@ A personal portfolio website showcasing my work, resume, and education as a Soft
 
 | Page | File | Description |
 |------|------|--------------|
-| Portfolio (Home) | `portfolio.html` | Landing page with intro, "Hire Me" CTA, and About Me section |
+| Portfolio (Home) | `index.html` | Landing page with intro, "Hire Me" CTA, About Me section, and contact form |
 | Projects | `projects.html` | Showcase of personal/academic projects |
 | Resume | `resume.html` | Skills, experience, and downloadable/viewable resume |
 | Education | `education.html` | Academic background and qualifications |
 
 ## ✨ Features
 
-- Responsive navigation bar with active page highlighting
+- Responsive navigation bar with active page highlighting and a mobile hamburger menu
 - Smooth-scrolling "Hire Me" button that jumps to the Contact section
 - About Me section with quick links to Resume and Projects
-- Contact form (Name, Email, Phone, Subject, Message)
-- Social links footer (Gmail, GitHub, Instagram, LinkedIn)
+- Working contact form (Name, Email, Phone, Subject, Message), wired to [Formspree](https://formspree.io)
+- Social links footer (Gmail, GitHub, Instagram, LinkedIn) with accessible labels
 - Icon library powered by [Boxicons](https://boxicons.com/)
 
 ## 🛠️ Built With
 
 - **HTML5** — page structure
 - **CSS3** — styling (`style.css`)
+- **JavaScript** — mobile navigation toggle (`script.js`)
 - **Boxicons** — social and UI icons
 
 ## 📁 Project Structure
 
 ```
-├── portfolio.html
+├── index.html
 ├── projects.html
 ├── resume.html
 ├── education.html
 ├── style.css
+├── script.js
+├── req_files/
+│   └── resume.pdf
 └── README.md
 ```
 
@@ -47,7 +51,9 @@ A personal portfolio website showcasing my work, resume, and education as a Soft
    ```bash
    git clone https://github.com/GPannu77/<your-repo-name>.git
    ```
-2. Open `portfolio.html` in your browser — no build steps or dependencies required.
+2. Add your resume PDF at `req_files/resume.pdf` (referenced by `resume.html`).
+3. Set up the contact form: sign up free at [formspree.io](https://formspree.io), create a form, and replace `YOUR_FORM_ID` in the `<form action="...">` attribute in `index.html` with your real form ID.
+4. Open `index.html` in your browser — no build steps or dependencies required.
 
 ## 📬 Contact
 
